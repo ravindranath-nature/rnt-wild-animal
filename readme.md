@@ -61,17 +61,3 @@ cd ./models/yolov12
 ```bash
 python train.py
 ```
-
-### Our results
-
-- #### Yolov12, 10 classes, 50 epochs
-
-![](/results/result_1.jpeg)
-
-- #### Yolov12, 9 classes, 50 epochs
-
-![](/results/result_2.jpeg)
-
-- #### Yolov12, 5 classes, 25 epochs
-
-![](/results/result_3.jpeg)
