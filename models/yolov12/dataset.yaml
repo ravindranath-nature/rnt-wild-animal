@@ -1,0 +1,18 @@
+path: D:\dev\research\Animal_Detection\raw\raw_v4\datasetv4
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names:
+  [
+    "boar",
+    "elephant",
+    "wolf",
+    "Antelope",
+    "fox",
+    "gorilla",
+    "koala",
+    "pocupine",
+    "Bison",
+  ]
