@@ -14,6 +14,64 @@ The data for this project is a collection of images of wild animals. The images 
 
 The models for this project are stored in the `models` directory. The models are trained using the data in the `data` directory.
 
-## Training
+## Getting Started
 
-To train a model, run the following command in the terminal:
+- Clone this repository
+
+```bash
+git clone https://github.com/ravindranath-nature/rnt-wild-animal.git
+```
+
+- Move into the project directory
+
+```bash
+cd rnt-wild-animal
+```
+
+- Open your favourite IDE like [VSCode](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm/)
+
+```bash
+cd code .
+```
+
+- Create a virtual environment
+  - Windows
+
+```bash
+python -m venv .env
+```
+
+- - MacOS
+
+```bash
+python3 -m venv .env
+```
+
+- Annotate your data using a tool like [CVAT](https://github.com/cvat-ai/cvat)
+- Move to a model dir that you'd like to train.
+- To train say, yolov12,
+
+```bash
+cd ./models/yolov12
+```
+
+- Update the dataset.yaml file as per your classes
+- To begin training
+
+```bash
+python train.py
+```
+
+### Our results
+
+- #### Yolov12, 10 classes, 50 epochs
+
+![](/results/result_1.jpeg)
+
+- #### Yolov12, 9 classes, 50 epochs
+
+![](/results/result_2.jpeg)
+
+- #### Yolov12, 5 classes, 25 epochs
+
+![](/results/result_3.jpeg)
