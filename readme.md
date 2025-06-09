@@ -1,3 +1,5 @@
+![WhatsApp Image 2025-06-07 at 8 21 11 PM](https://github.com/user-attachments/assets/0e7bc080-694f-46ce-89ef-9b8268d8ce62)
+
 # Wild Animal Object Recognition
 
 This repository is for training different object recognition models to identify wild animals.
