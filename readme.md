@@ -1,6 +1,6 @@
-![WhatsApp Image 2025-06-07 at 8 21 11 PM](https://github.com/user-attachments/assets/0e7bc080-694f-46ce-89ef-9b8268d8ce62)
 
-# Wild Animal Object Recognition
+
+# An End-to-End DL-based wildlife detection pipeline with integrated chatbot and deployment tools
 
 This repository is for training different object recognition models to identify wild animals.
 
@@ -15,7 +15,7 @@ The data for this project is a collection of images of wild animals. The images 
 ## Models
 
 The models for this project are stored in the `models` directory. The models are trained using the data in the `data` directory.
-
+![WhatsApp Image 2025-06-07 at 8 21 11 PM](https://github.com/user-attachments/assets/0e7bc080-694f-46ce-89ef-9b8268d8ce62)
 ## Getting Started
 
 - Clone this repository
