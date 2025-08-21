@@ -1,13 +1,38 @@
-
-
 # An End-to-End DL-based wildlife detection pipeline with integrated chatbot and deployment tools
 
-An End-to-End UAV-based wildlife detection dashboard using AI, DL, LLM, and deployment tools. This framework have full capability of object detection starting from data annotation, augmentation, model training, testing, and deployment into desktop and  edge devices.
+An End-to-End UAV-based wildlife detection dashboard using AI, DL, LLM, and deployment tools. This framework have full capability of object detection starting from data annotation, augmentation, model training, testing, and deployment into desktop and edge devices.
 It also features an interactive dashboard for real-time monitoring and an LLM-powered assistant for natural language querying, showcasing full-stack ML engineering from research to deployment.
 
 ## Goals
 
-The goal of this project is to create a model that can identify wild animals in images. The model should be able to identify the type of animal and the position of the animal in the image.
+The goal of this project is to create a deep learning framework for the wildlife where annotation, augmentation, training, and deployment can happen within a single platform.
+
+## Features
+
+### DataSet Studio
+
+- Build quality datasets from scratch
+- Chat Support powered by large language models
+  ![Gif of the dataset studio](/screenshots/add_class.gif)
+
+- Annotate in record time
+  ![Gif of the assist feature](/screenshots/assist.gif)
+
+- Splitting dataset made easy
+  ![Gif of the assist feature](/screenshots/split.gif)
+
+- Augmentation preview and export
+  ![Gif of the augmentation feature](/screenshots/augmentation.gif)
+
+### Training Lab
+
+- A simple UI to setup hyper parameters & monitor training
+  ![Gif of the training feature](/screenshots/trainingloop.gif)
+
+### One click deployments
+
+- Quickly deploy models to ONNX and Tensorflow and test in realtime.
+  ![Gif of the augmentation feature](/screenshots/deployment.gif)
 
 ## Data
 
@@ -16,7 +41,7 @@ The data for this project is a collection of images of wild animals. The images 
 ## Models
 
 The models for this project are stored in the `models` directory. The models are trained using the data in the `data` directory.
-![WhatsApp Image 2025-06-07 at 8 21 11 PM](https://github.com/user-attachments/assets/0e7bc080-694f-46ce-89ef-9b8268d8ce62)
+
 ## Getting Started
 
 - Clone this repository
