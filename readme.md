@@ -2,7 +2,8 @@
 
 # An End-to-End DL-based wildlife detection pipeline with integrated chatbot and deployment tools
 
-This repository is for training different object recognition models to identify wild animals.
+An End-to-End UAV-based wildlife detection dashboard using AI, DL, LLM, and deployment tools. This framework have full capability of object detection starting from data annotation, augmentation, model training, testing, and deployment into desktop and  edge devices.
+It also features an interactive dashboard for real-time monitoring and an LLM-powered assistant for natural language querying, showcasing full-stack ML engineering from research to deployment.
 
 ## Goals
 
